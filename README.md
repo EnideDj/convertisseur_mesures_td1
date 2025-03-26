@@ -47,9 +47,5 @@ Pour exécuter les tests unitaires, utilisez la commande suivante :
     ```bash
         flutter test
 
-## Tests
-
-Les tests sont écrits en utilisant le framework de test Flutter. Ils vérifient que les conversions entre différentes unités de mesure sont effectuées correctement. Vous pouvez exécuter les tests avec la commande :
-
 
 ## ENIDE DJENDER - FISA-TI-27 - IMT NORD EUROPE 
