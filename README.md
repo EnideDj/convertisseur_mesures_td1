@@ -1,17 +1,55 @@
-# convertisseur_mesures
+# Convertisseur de Mesures - TP N°1
 
-A new Flutter project.
+## Description
 
-## Getting Started
+Ce projet est une application mobile Flutter permettant de convertir des unités de mesure, telles que des distances (kilomètres, miles, mètres), des poids (livres, kilogrammes, grammes), et d'autres unités comme les onces et les pieds. L'application permet à l'utilisateur de saisir une valeur et de sélectionner l'unité de départ ainsi que l'unité d'arrivée pour effectuer la conversion.
 
-This project is a starting point for a Flutter application.
+### Fonctionnalités principales :
+- Conversion des unités de mesure : kilomètres ↔ miles, mètres ↔ pieds, grammes ↔ kilogrammes, et plus encore.
+- Interface utilisateur simple et interactive.
+- Support de la saisie par l'utilisateur pour entrer la valeur à convertir.
+- Conversion basée sur une logique mathématique intégrée via une matrice de conversion.
 
-A few resources to get you started if this is your first Flutter project:
+## Structure du projet
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Le projet est divisé en plusieurs fichiers et répertoires pour organiser l'application de manière logique et modulaire.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# convertisseur_mesures_td1
+```env
+.
+├── lib
+│   ├── constants.dart        # Contient les constantes
+│   ├── converter.dart       # Contient la logique de conversion
+│   ├── main.dart            # Contient le point d’entrée de l'app
+│   ├── ui.dart              # Contient l’interface utilisateur 
+├── test
+│   └── conversion_test.dart # Contient les tests unitaires 
+```
+
+## Installation
+
+1. **Clonez le projet** :
+
+   ```bash
+   git clone https://github.com/EnideDj/convertisseur_mesures_td1
+   cd convertisseur_mesures
+
+2.	Installez les dépendances :
+    ```bash
+    flutter pub get
+
+3.	Exécutez l’application :
+Pour exécuter l’application sur un émulateur ou un appareil physique, utilisez la commande suivante :
+    ```bash
+    flutter run
+
+4.	Exécutez les tests :
+Pour exécuter les tests unitaires, utilisez la commande suivante :
+    ```bash
+        flutter test
+
+## Tests
+
+Les tests sont écrits en utilisant le framework de test Flutter. Ils vérifient que les conversions entre différentes unités de mesure sont effectuées correctement. Vous pouvez exécuter les tests avec la commande :
+
+
+## ENIDE DJENDER - FISA-TI-27 - IMT NORD EUROPE 
